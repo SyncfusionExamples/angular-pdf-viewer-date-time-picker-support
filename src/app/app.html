@@ -1,0 +1,10 @@
+<div style="margin-top: 100px;">
+  <div class="toolbar">
+    <button id="addDateField" (click)="addDateField()">Add Date Field</button>
+    <button id="addTimeField" (click)="addTimeField()">Add Time Field</button>
+  </div>
+
+  <ejs-pdfviewer #pdfViewer id="pdfViewer" [documentPath]="documentPath" [resourceUrl]="resourcesUrl"
+    style="height:640px; display:block">
+  </ejs-pdfviewer>
+</div>
